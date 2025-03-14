@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styled HTML Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="main-header">
+        <h1>Welcome to My Styled Page</h1>
+    </header>
+
+    <section class="content">
+        <p>This is a paragraph demonstrating basic styling using CSS selectors.</p>
+        <img src="example.jpg" alt="Sample Image" class="styled-image">
+    </section>
+
+    <footer>
+        <p>&copy; 2025 My Website</p>
+    </footer>
+</body>
+</html>
+
+/* style.css */
+
+/* ID Selector */
+#main-header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Class Selector */
+.content {
+    margin: 20px;
+    padding: 15px;
+    border: 2px solid #ccc;
+    font-family: 'Verdana', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Element Selector */
+footer p {
+    text-align: center;
+    color: gray;
+    font-family: 'Courier New', monospace;
+}
+
+/* Styling an image */
+.styled-image {
+    width: 100%;
+    max-width: 600px;
+    border: 3px solid #333;
+    border-radius: 8px;
+    margin-top: 10px;
+}
